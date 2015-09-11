@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1-rc2/jquery.min.js"></script>
+     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+     <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+
+	<!--Interactive Face-->
+    <script src="http://code.createjs.com/easeljs-0.8.1.min.js"></script>
+    <script src="http://code.createjs.com/tweenjs-0.6.1.min.js"></script>
+    <script src="http://code.createjs.com/movieclip-0.8.1.min.js"></script>
+    <script src="http://code.createjs.com/preloadjs-0.6.1.min.js"></script>
+    <script src="myFace.js"></script>
+    <script>
+    var canvas, stage, exportRoot;
+
+    function init() {
+        canvas = document.getElementById("canvas");
+        images = images||{};
+        ss = ss||{};
+
+        var loader = new createjs.LoadQueue(false);
+        loader.addEventListener("fileload", handleFileLoad);
+        loader.addEventListener("complete", handleComplete);
+    loader.loadFile({src:"images/myFace_atlas_.json", type:"spritesheet", id:"myFace_atlas_"}, true);
+        loader.loadManifest(lib.properties.manifest);
+    }
+
+    function handleFileLoad(evt) {
+        if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+    }
+
+    function handleComplete(evt) {
+        var queue = evt.target;
+        ss["myFace_atlas_"] = queue.getResult("myFace_atlas_");
+        exportRoot = new lib.myFace();
+
+        stage = new createjs.Stage(canvas);
+        stage.addChild(exportRoot);
+        stage.update();
+
+        createjs.Ticker.setFPS(lib.properties.fps);
+        createjs.Ticker.addEventListener("tick", stage);
+    }
+    </script>
+    <!--/Interactive Face -->
+
+
+	<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+        <link href="css/myCSS.css" rel="stylesheet">
+	    <title>Anil Jason - Programer/Hacker/Nerd</title>
+        <meta name="author" content="Anil Jason" />
+        <meta name="description" content="The personal website dedicated to log my personal projects and hacks." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+    
+
+    <!-- Decouped HTML-->
+      <script> 
+        $(function(){
+          $("#includedContent").load("abilities.html"); 
+        });
+    </script> 
+     <!-- Decoupled HTML -->
+
+    </head>
+    <body onload="init();">
+    <main>
+	
+
+
+<div id="dialog" title="Basic dialog">
+</div>
+
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top" id="nameText">Anil Jason</a>
+				
+				
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right extra-shift">
+                    <li class="page-scroll">
+                        <a href="resume.pdf" id="ViewResume">View Resume</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+<section class="module parallax parallax-2" id="parallax">
+  <div class="containery">
+  <div align='center'>
+	 <div class="face_it">
+		<canvas id="canvas" width="600" height="680"></canvas>
+	 </div>
+	 <p class = "who">
+	 Highly enthusiastic programmer with a wide set of experience in both frontend and backend desgin.
+	 </p>
+	 <p class = "who">
+	 Passionate about learning and working with others. 
+	 </p>
+	 </div>
+  </div>
+</section>
+
+
+<div id="leaderboard" class = "row-full">
+<div align = 'center'>
+	<font class = "things">
+		Things I Made
+	</font>
+</div>
+</div>
+
+<div id="aboutMore" class="aboutMore">
+<div class="row">
+    <div class="col-sm-4 category-box"> 
+    <a class="catLink">Recent</a><br>
+    <a class="catLink">WebDev</a><br>
+    <a class="catLink">Gaming</a><br>
+    <a class="catLink">WatchApp</a><br>
+    <a class="catLink">Mobile</a><br>
+    <a class="catLink">Hackathon</a><br>
+    <a class="catLink">Javascript</a><br>
+    <a class="catLink">C/C++</a><br>
+    <a class="catLink">Java</a><br>
+    <a class="catLink">NodeJS</a><br>
+    <a class="catLink">PHP</a><br>
+    <a class="catLink">Flash</a><br>
+    <a class="catLink">Canvas</a><br>
+    <a class="catLink">Experimental</a><br>   
+    </div>
+    <div class="col-sm-8 projects">
+        <img src="images/construction.png" width="30%" style="margin-top:50px">
+    </div>
+    </div>
+</div>
+
+<div id="leaderboard2" class = "row-full">
+<div align = 'center'>
+    <div id="includedContent"></div>
+</div>
+
+
+<div id="leaderboard3" class = "row-full">
+<div align = 'center'>
+	Contact me: Satern693@gmail.com
+</div>
+</div>
+</div>
+<script src="js/demo.js"></script>
+<script src="f.js"></script>

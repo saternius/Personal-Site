@@ -1,0 +1,174 @@
+@font-face {
+   font-family: myFirstFont;
+   src: url('../fonts/daFont.ttf');
+}
+
+@font-face {
+   font-family: GothamBold;
+   src: url('../fonts/Gotham-Bold.otf');
+}
+
+@font-face {
+   font-family: GothamBook;
+   src: url('../fonts/Gotham-Book.otf');
+}
+
+@font-face {
+   font-family: KeepCalm;
+   src: url('../fonts/KeepCalm-Medium.ttf');
+}
+
+
+p.who{
+	font-family: GothamBook;
+	color: #ffffff;
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top:-30px;
+}
+
+.navbar-default {
+    background-color: #2C3F50;
+    border-color: #2C3F50;
+}
+
+#nameText{
+	font-size: 25px;
+    font-family: KeepCalm;
+    color: white;
+    margin-top:7px;
+}
+
+
+#canvas{
+	margin-top: 0px;
+	width:35%;
+	height:35%;
+}
+
+#ViewResume:hover{
+	background-color: #14212D;
+}
+
+#ViewResume{
+	background-color: #223342;
+	font-size: 16px;
+    font-family: KeepCalm;
+    border-radius: 5px;
+    padding: 17px;
+  
+    margin-left: 200px;
+    color: white;
+}
+.category-box{
+	padding:10px;
+	text-align: right;
+	width:18%;
+	border-right: solid;
+	border-width: 2px;
+}
+
+.catLink{
+	font-size: 18px;
+	font-family: GothamBook;
+	cursor: pointer;
+}
+.aboutMore{
+	width:100%;
+	padding: 15px 0px;
+}
+
+.title-text{
+	font-family: GothamBook;
+	font-weight: 300;
+    color: #22A39F;
+    font-size: 28px;
+  
+}
+
+
+.page-scroll:hover{
+	background: #2C3F50;
+}
+
+li:hover{
+	background: #080C0F;
+	cursor: default;
+}
+
+li:hover  .glyphicon {
+    font-size: 20px;
+}
+
+li:hover  .working {
+    font-size: 20px;
+}
+
+li:hover  .ability-title {
+    font-size: 20px;
+}
+
+.working{
+	 -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+ ul > li .ability-title:hover {
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+    font-family: GothamBook;
+    float:left;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul > li {
+    min-height: 30px;
+    padding: 5px 6px;
+}
+
+ ul > li .ability-title {
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+    font-family: GothamBook;
+    float:left;
+}
+
+ul > li .ability-score {
+    float: right;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #DFE0E0;
+    font-size: 14px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#abilities{
+	width:100%;
+}
+
+.glyphicon.filled {
+    color: #22A39F;
+}
