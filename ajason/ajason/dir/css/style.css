@@ -4,6 +4,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+
 html {
   font-family: sans-serif;
   /* 1 */
@@ -873,10 +874,12 @@ header {
 }
 
 #leaderboard3 {
-  background: #243141;
+  background: #06090E;
   color: white;
-  padding-bottom: 10px; 
-  padding-top: 10px;
+  padding-bottom: 20px; 
+  padding-top: 20px;
+  float:bottom;
+  position: absolute;
 }
 
 #top-nav{
@@ -909,6 +912,8 @@ footer {
 i.fa {
   margin-right: 10px; }
   
-  
+.linkedin{
+  color: #22A39F;
+}
 
 /*# sourceMappingURL=style.css.map */

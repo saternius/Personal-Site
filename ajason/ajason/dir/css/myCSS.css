@@ -74,7 +74,14 @@ p.who{
 	font-size: 18px;
 	font-family: GothamBook;
 	cursor: pointer;
+    line-height: 200%;
 }
+
+.catLink:hover{
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
 .aboutMore{
 	width:100%;
 	padding: 15px 0px;
@@ -171,4 +178,38 @@ ul > li .ability-score {
 
 .glyphicon.filled {
     color: #22A39F;
+}
+
+.contact{
+    font-family: GothamBook;
+    font-size: 16px;
+    color:lightgrey;
+    text-align: left;
+    margin-left:35px;
+}
+
+.contact-small{
+    font-family: GothamBook;
+    font-size:13px;
+    color: lightgrey;
+    text-align: left;
+    margin-left:35px;
+}
+
+.projects{
+    height:100%;
+
+}
+
+.projectTable{
+    background: #E4E3E3;
+    width:100%;
+    margin-bottom:10%;
+}
+
+div{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
