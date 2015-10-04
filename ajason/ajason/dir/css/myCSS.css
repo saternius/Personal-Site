@@ -202,9 +202,27 @@ ul > li .ability-score {
 }
 
 .projectTable{
-    background: #E4E3E3;
+    background: #FFFFFF;
     width:100%;
     margin-bottom:10%;
+     -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+
+    -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+.infoDiv{
+    position:absolute;
+    background: #0CBF97;
+    width:86%;
+    height:92%;
+    opacity:.65;
+    z-index: 900;
 }
 
 div{
