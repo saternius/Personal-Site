@@ -24,6 +24,7 @@ var SpaceDexterity = function(){
 	this.mainScreenshot = 'images/projectShots/SpaceDexterity/GamePlay1.png'
 	this.screenshots = ["images/projectShots/SpaceDexterity/GamePlay1.png", "images/projectShots/SpaceDexterity/Menu.png"];
 	this.embed = ['swf','images/projectShots/SpaceDexterity/swf/space-dexterity.swf','550','400']; 
+	this.tags = ["Flash","Gaming"];
 }
 
 var TestYourInnerGamer = function(){
@@ -41,7 +42,8 @@ var TestYourInnerGamer = function(){
 						"images/projectShots/SpaceDexterity/game6.png",
 						"images/projectShots/SpaceDexterity/game7.png",
 						];
-	this.embed = ['swf','images/projectShots/TestYourInnerGamer/swf/tyig.swf','550','400']; 
+	this.embed = ['swf','images/projectShots/TestYourInnerGamer/swf/tyig.swf','550','400'];
+	this.tags = ["Flash", "Gaming"]; 
 }
 
 var SpaceFishers = function(){
@@ -54,7 +56,8 @@ var SpaceFishers = function(){
 						"images/projectShots/SpaceFishers/menu.png",
 						"images/projectShots/SpaceFishers/game1.png",
 						];
-	this.embed = ['swf','images/projectShots/SpaceFishers/swf/space-fishers.swf','600','600']; 
+	this.embed = ['swf','images/projectShots/SpaceFishers/swf/space-fishers.swf','600','600'];
+	this.tags = ["Flash", "Gaming"];  
 }
 
 
@@ -70,6 +73,7 @@ var CrazyCrystallizedCalamity = function(){
 						"images/projectShots/CCC/Menu.png"
 						];
 	this.embed = ['swf','images/projectShots/CCC/swf/ccc.swf','600','600']; 
+	this.tags = ["Flash", "Gaming"]; 
 }
 
 var FloatingBoxesOfWonder = function(){
@@ -83,15 +87,17 @@ var FloatingBoxesOfWonder = function(){
 						"images/projectShots/SpaceFishers/game1.png",
 						];
 	this.embed = ['swf','images/projectShots/CCC/swf/ccc.swf','600','600']; 
+	this.tags = ["Flash", "Gaming"]; 
 }
 
 
 var SpaceDexterity2 = function(){
-	this.name = "SpaceDexterity2";
+	this.name = "Space Dexterity 2";
 	this.date = "January 2012";
 	this.smallDesc = "With the impending death of Flash, I decided to just give it one last go and make my final flash game a tribute to my first.";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["Flash", "Gaming"]; 
 }
 
 
@@ -101,6 +107,7 @@ var Simulator_237 = function(){
 	this.smallDesc = "Sandbox in which small bots compete for life, and evolve in the process.";
 	this.desc = "";
 	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.tags = ["Flash", "Gaming"]; 
 }
 
 var Loaded = function(){
@@ -108,7 +115,8 @@ var Loaded = function(){
 	this.date = "June 2014";
 	this.smallDesc = "Hand crafted physics engine implemented in a unique toilet game.";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["Mobile", "Gaming","Large","Java"]; 
 }
 
 
@@ -117,7 +125,8 @@ var TakeOut = function(){
 	this.date = "Febuary 2015";
 	this.smallDesc = "See how long you could live eating only one food before having organ failure";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["Mobile", "Experimental", "Java", "Hackathon"]; 
 }
 
 var Arbitrio = function(){
@@ -125,7 +134,8 @@ var Arbitrio = function(){
 	this.date = "October 2013";
 	this.smallDesc = "Interface that allows users to make their own walkthrough adventures, and post them online.";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["Java", "PHP", "mySQL", "Large"]; 
 }
 
 var MyRightToPlay = function(){
@@ -133,15 +143,17 @@ var MyRightToPlay = function(){
 	this.date = "December 2010";
 	this.smallDesc = "Dynamic portal for flash games all over the web.";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["WebDev", "Gaming","Flash","Large","PHP","Javascript"]; 
 }
 
 var ZombieIO = function(){
-	this.name = "Loaded";
+	this.name = "ZombieIO";
 	this.date = "March 2014";
 	this.smallDesc = "Minimalistic online multiplayer game where you survive a zombie swarm";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["Canvas", "Gaming","NodeJS","Javascript"]; 
 }
 
 
@@ -150,7 +162,8 @@ var GoogleHistoryScrapper = function(){
 	this.date = "January 2015";
 	this.smallDesc = "Script that allows users to get all their google searches in one convinient text file";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["NodeJS", "Javascript" ,"Experimental"]; 
 }
 
 var MrGameAndPebbleWatch = function(){
@@ -158,7 +171,8 @@ var MrGameAndPebbleWatch = function(){
 	this.date = "March 2014";
 	this.smallDesc = "Recreation of the classic nintendo game into the pebble watch";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["WatchApp", "C"]; 
 }
 
 var Stela = function(){
@@ -166,7 +180,8 @@ var Stela = function(){
 	this.date = "Febuary 2014";
 	this.smallDesc = "Pebble App that pulls an article from your phone and spritz streams it to your watch";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["WatchApp", "C","Hackathon"]; 
 }
 
 var Uptalk = function(){
@@ -175,6 +190,7 @@ var Uptalk = function(){
 	this.smallDesc = "Mobile app that helps you learn a new language in a new way";
 	this.desc = "";
 	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.tags = ["Mobile", "C", "Hackathon","Javascript", "Ionic"]; 
 }
 
 var CobbleStone = function(){
@@ -182,7 +198,8 @@ var CobbleStone = function(){
 	this.date = "April 2015";
 	this.smallDesc = "WarioWare-like multiplayer coop game for the pebble.";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["WatchApp", "C", "Gaming", "NodeJS", "Javascript", "Hackathon"]; 
 }
 
 var LawyerUp = function(){
@@ -190,7 +207,8 @@ var LawyerUp = function(){
 	this.date = "July 2015";
 	this.smallDesc = "Oregon Trail -like game aimed to inform the user about good legal health";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["Canvas", "Gaming", "Hackathon", "Javascript"]; 
 }
 
 var ArbCorvisa = function(){
@@ -198,7 +216,8 @@ var ArbCorvisa = function(){
 	this.date = "July 2015";
 	this.smallDesc = "Frontend UI for corvisa aimed at non-technical individuals";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["NodeJS","Javascript", "Hackathon"]; 
 }
 
 var Frizzle = function(){
@@ -206,7 +225,8 @@ var Frizzle = function(){
 	this.date = "August 2015";
 	this.smallDesc = "Chrome extension that gets context of site your on and suggests educational alternatives";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["Javascript", "Hackathon", "Experimental"]; 
 }
 
 var Downlowd = function(){
@@ -214,15 +234,17 @@ var Downlowd = function(){
 	this.date = "September 2015";
 	this.smallDesc = "WatchApp that swaps contacts and sends linkedin requests with a down low.";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["WatchApp", "C","NodeJS", "Javascript"]; 
 }
 
 var DotDoccer = function(){
-	this.name = "DotDoccer";
+	this.name = "BrailleLens";
 	this.date = "September 2015";
 	this.smallDesc = "a real time braille to text translator";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["Mobile", "Hackathon"]; 
 }
 
 var LetsGraduate = function(){
@@ -230,7 +252,8 @@ var LetsGraduate = function(){
 	this.date = "March 2015";
 	this.smallDesc = "Database project that helps students optimize their schedules";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["NodeJS", "mySQL","WebDev","BootStrap"];
 }
 
 var IntelliWheels = function(){
@@ -238,7 +261,8 @@ var IntelliWheels = function(){
 	this.date = "June 2015";
 	this.smallDesc = "Internship project to help users customize their own wheelchairs.";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["NodeJS", "MongoDB","WebDev","BootStrap","Javascript"];
 }
 
 var Cublet = function(){
@@ -246,7 +270,8 @@ var Cublet = function(){
 	this.date = "July 2015";
 	this.smallDesc = "A prototype for creating a scratch-like interface for Mathematica";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["Javascript", "Canvas","Mathematica"];
 }
 
 var ThisWebsite = function(){
@@ -254,7 +279,8 @@ var ThisWebsite = function(){
 	this.date = "Oct 2015";
 	this.smallDesc = "This personal website you are on!";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["WebDev", "Javascript","CSS","BootStrap"];
 }
 
 var Hickori = function(){
@@ -262,7 +288,8 @@ var Hickori = function(){
 	this.date = "Sept 2015";
 	this.smallDesc = "Using big data to make EM attendence risk rates";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["Azure"];
 }
 
 var Yahtzee = function(){
@@ -270,7 +297,8 @@ var Yahtzee = function(){
 	this.date = "June 2013";
 	this.smallDesc = "Program that randomly rolls until yahtzee";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["Flash"];
 }
 
 
@@ -279,8 +307,8 @@ var ROYGBIV = function(){
 	this.date = "December 2011";
 	this.smallDesc = "Program to assist me in learning new platforms.";
 	this.desc = "";
-	this.stack = ['Mobile', 'Flash','Gaming'];
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["Flash", "Mobile","Java","Experimental"];
 }
 
 var Valintine = function(){
@@ -288,7 +316,8 @@ var Valintine = function(){
 	this.date = "Febuary 2014";
 	this.smallDesc = "A valintine flash game.";
 	this.desc = "";
-	this.mainScreenshot = 'images/projectShots/Todo.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png';
+	this.tags = ["Flash"];
 }
 
 
@@ -402,13 +431,50 @@ new ArbCorvisa(),
 new LawyerUp()
 ]
 
+var WebDev = [
+new MyRightToPlay(),
+new ThisWebsite(),
+new IntelliWheels(),
+new LetsGraduate()
+]
+
+var Gaming = [
+new SpaceDexterity2(),
+new Valintine(),
+new FloatingBoxesOfWonder(),
+new SpaceFishers(),
+new TestYourInnerGamer(),
+new SpaceDexterity(),
+new Loaded(),
+new ZombieIO(),
+new CobbleStone()
+
+];
+
 var projArrays = new Array();
 projArrays['All'] = Projects;
 projArrays['Featured'] = Featured;
 projArrays['Recent'] = Recent;
+projArrays['WebDev'] = WebDev;
+projArrays['Gaming'] = Gaming;
+
+
+
+
+
+
 ////////////////////////////PROGRAM
 var projectTables = document.getElementsByClassName("projectTable");
 var infoDiv = document.getElementsByClassName("infoDiv");
+var projectTitles = document.getElementsByClassName("infoTitle");
+var projectBorder = document.getElementsByClassName("infoBorder");
+var projectText = document.getElementsByClassName("infoText");
+var projectTag = document.getElementsByClassName("infoTags");
+var projectTags = document.getElementsByClassName("tagsText");
+
+
+
+
 var prevLink;
 function updateDim(){
 	$('.projectTable').each(function(i, obj) {
@@ -431,46 +497,88 @@ function displayProjectsOf(str){
 	prevLink = linkElement;
 	var projects = projArrays[str];
 	for(var i=0; i<projects.length; i++){
-		loadTable(projectTables[i],infoDiv[i], projects[i]);;
+		loadTable(projectTables[i], infoDiv[i], projectTitles[i], projectBorder[i], projectText[i], projectTag[i], projectTags[i], projects[i]);;
 	}
 	for(var i=projects.length; i<projectTables.length; i++){
-		console.log("removing..")
-		removeTable(projectTables[i],infoDiv[i]);
+		removeTable(projectTables[i], infoDiv[i], projectTitles[i], projectBorder[i], projectText[i], projectTag[i], projectTags[i]);
 	}	
 }
 
-function removeTable(table){
+function removeTable(table,info,projectTitle,projectBorder,projectText,projectTag,projectTags){
 	table.style.opacity = "0";
+	info.style.opacity = "0";
+	projectTitle.style.opacity = "0";
+	projectTitle.style.padding = "0px 5px";
+	projectBorder.style.opacity = "0";
+	projectText.style.opacity = "0";
+	projectTag.style.opacity = "0";
+	projectTags.style.opacity = "0";
+	projectText.style.padding = "0px 25px";
+	projectTag.style.margin = "0px 25px";
+	projectTags.style.margin = "0px 25px";
+
+	var old_element = info;
+	var new_element = old_element.cloneNode(true);
+	old_element.parentNode.replaceChild(new_element, old_element);
 }
 
-function loadTable(table,info, data){
+function loadTable(table,info,projectTitle,projectBorder,projectText,projectTag,projectTags,data){
 	if(info){
 		info.style.width = table.offsetWidth+"px";
 		info.style.height = table.offsetHeight+"px";
 	}
-	console.log(table);
-	console.log(data.mainScreenshot);
 	table.style.opacity = "1";
 	table.style.backgroundImage = "url('"+data.mainScreenshot+"')";
 	//table.style.backgroundRepeat = "no-repeat";
 	//table.style.backgroundAttachment = "fixed";
 	table.style.backgroundPosition = "center";
-	console.log(table.offsetWidth);
 	table.style.backgroundSize = table.offsetWidth+"px";//background-size: 80px 60px;
+	projectTitle.innerHTML = data.name;
+	projectText.innerHTML = data.smallDesc;
+
+	var tags = "";
+	for(var i=0; i<data.tags.length; i++){
+		tags+=data.tags[i]+", ";
+	}
+	projectTags.innerHTML = tags;
+
+	info.addEventListener('mouseover',function over(m){
+		 info.style.opacity = ".7";
+		 projectTitle.style.opacity = "1";
+		 projectTitle.style.padding = "0px 15px";
+		 projectBorder.style.opacity = "1";
+		 projectText.style.opacity = "1";
+		 projectTag.style.opacity = "1";
+		 projectTags.style.opacity = "1";
+		 projectText.style.padding = "0px 15px";
+		 projectTag.style.margin = "0px 15px";
+		 projectTags.style.margin = "0px 15px";
+	});
+	info.addEventListener('mouseout',function over(m){
+		 info.style.opacity = 0;
+		 projectTitle.style.opacity = "0";
+		 projectTitle.style.padding = "0px 5px";
+		 projectBorder.style.opacity = "0";
+		 projectText.style.opacity = "0";
+		 projectTag.style.opacity = "0";
+		 projectTags.style.opacity = "0";
+		 projectText.style.padding = "0px 25px";
+		 projectTag.style.margin = "0px 25px";
+		 projectTags.style.margin = "0px 25px";
+	});
+
 }
 
-
 displayProjectsOf('Featured');
-
 $(window).on('resize', function(){
-	setTimeout(function(){
-		
+	setTimeout(function(){	
 		var tableWidth = projectTables[0].offsetWidth;
 		var tableHeight = projectTables[0].offsetHeight;
-		console.log("resizing.."+tableWidth);
 		for(var i=0; i<infoDiv.length;i++){
 			infoDiv[i].style.width = tableWidth+"px";
 			infoDiv[i].style.height = tableHeight+"px";
 		}
 	},500);
 });
+
+

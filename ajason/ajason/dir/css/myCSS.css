@@ -201,6 +201,7 @@ ul > li .ability-score {
 
 }
 
+
 .projectTable{
     background: #FFFFFF;
     width:100%;
@@ -209,20 +210,87 @@ ul > li .ability-score {
     -moz-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
-
-    -webkit-filter: blur(2px);
-  -moz-filter: blur(2px);
-  -o-filter: blur(2px);
-  -ms-filter: blur(2px);
-  filter: blur(2px);
 }
 .infoDiv{
     position:absolute;
     background: #0CBF97;
     width:86%;
     height:92%;
-    opacity:.65;
+    opacity:0;
     z-index: 900;
+}
+
+.infoText{
+  
+    position: absolute;
+    z-index: 901;
+    font-size: 15px;
+    text-align: left;
+    padding: 0px 25px;
+    color: white;
+    opacity: 0;
+    height: 100%;
+    width: 90%;
+    top: 22%;
+    pointer-events:none;
+}
+
+.infoTitle{
+    font-family: GothamBold;
+    position: absolute;
+    z-index: 901;
+    font-size: 20px;
+    text-align: left;
+    padding: 0px 5px;
+    color: white;
+    opacity: 0;
+    height: 100%;
+    width: 90%;
+    top: 5%;
+    pointer-events:none;
+}
+
+.infoBorder{
+    position: absolute;
+    z-index: 901;
+    text-align: left;
+    margin: 0px 15px;
+    background: white;
+    opacity: 0;
+    border-width: 1px;
+    height: 2px;
+    width: 72%;
+    top: 16%;
+    pointer-events:none;
+}
+
+.infoTags{
+    font-family: GothamBold;
+    position: absolute;
+    z-index: 901;
+    text-align: left;
+    margin: 0px 25px;
+    color: white;
+    opacity: 0;
+    border-width: 1px;
+    height: 2px;
+    width: 72%;
+    top: 70%;
+    pointer-events:none;
+}
+
+.tagsText{
+    position: absolute;
+    z-index: 901;
+    text-align: left;
+    margin: 0px 25px;
+    color: white;
+    opacity: 0;
+    border-width: 1px;
+    height: 2px;
+    width: 72%;
+    top: 75%;
+    pointer-events:none;
 }
 
 div{
