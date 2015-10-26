@@ -21,7 +21,7 @@ var SpaceDexterity = function(){
 	this.date = "October 2010";
 	this.smallDesc = "It all began with a simple flash game.";
 	this.desc = "Space Dexterity was my first start to finish project. The amount of raw pleasure endured in the 3 days of developing it helped kickstart my passion of a lifetime of programming. I posted it on online and embedded Mochi onto it and since 2010 has gotten well over 200,000 plays.";
-	this.mainScreenshot = 'images/projectShots/SpaceDexterity/GamePlay1.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png'
 	this.screenshots = ["images/projectShots/SpaceDexterity/GamePlay1.png", "images/projectShots/SpaceDexterity/Menu.png"];
 	this.embed = ['swf','images/projectShots/SpaceDexterity/swf/space-dexterity.swf','550','400']; 
 	this.tags = ["Flash","Gaming"];
@@ -32,7 +32,7 @@ var TestYourInnerGamer = function(){
 	this.date = "November 2010";
 	this.smallDesc = "A game composed of several minigames in order to get experience in implementing various gaming mechanics";
 	this.desc = "Test Your Inner Gamer was the second game I created that was composed fo several minigames in order to get a hang of implementing various gaming mechanics and strengthen my overall programming abilities.";
-	this.mainScreenshot = 'images/projectShots/TestYourInnerGamer/game4.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png'
 	this.screenshots = ["images/projectShots/TestYourInnerGamer/Menu.png", 
 						"images/projectShots/SpaceDexterity/game1.png",
 						"images/projectShots/SpaceDexterity/game2.png",
@@ -51,7 +51,7 @@ var SpaceFishers = function(){
 	this.date = "Febuary 2011";
 	this.smallDesc = "Asteroids with a twist. Be a space entrepreneur and harvest space minerals by blowing up asteroids!";
 	this.desc = "Space fishers was the first programming project that used more advanced forms of object orientation such as inheritances and having MovieClips operate independently within the environment.";
-	this.mainScreenshot = 'images/projectShots/SpaceFishers/game1.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png'
 	this.screenshots = ["images/projectShots/SpaceFishers/GameMenu.png", 
 						"images/projectShots/SpaceFishers/menu.png",
 						"images/projectShots/SpaceFishers/game1.png",
@@ -66,7 +66,7 @@ var CrazyCrystallizedCalamity = function(){
 	this.date = "May 2011";
 	this.smallDesc = "Simple time-grinder game in which you save a burning town by throwing a giant snowball at it.";
 	this.desc = "Crazy Crystallized Calamity is essentially a half-finished time wasting flash game that gave me great insights in what and what not to do in game development. There are a ton of things wrong with it and I had contemplation whether to post it or not but I guess its worth talking about since it always good to talk about your failures and what you learned from them. Despite the obvious glitches the game is riddled with, the main attribute this game suffers with most of all is proper design. For one there is little information about what is going on except for the nice animation at the beginning, there is no indication of how big the snowball is growing, the hitboxes for the clouds are attrocious, it has little interactivity, and overall the game lacks any real enjoyable experience. Most of the issues lay within the fact that I moved on to other projects mid production, and didn't give it the time it needed to be good. Despite it's downfalls I had enormous enjoyment creating it and learning about the wonders of game dev.";
-	this.mainScreenshot = 'images/projectShots/CCC/game1.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png'
 	this.screenshots = ["images/projectShots/CCC/game2.png",
 						'images/projectShots/CCC/game1.png', 
 						"images/projectShots/CCC/GameMenu.png",
@@ -81,7 +81,7 @@ var FloatingBoxesOfWonder = function(){
 	this.date = "January 2012";
 	this.smallDesc = "Local multiplayer helicopter-like game.";
 	this.desc = "Floating Boxes of Wonders was my most successful flash games, recieving over 750,000 views total. More importantly, it encouraged me to learn better programming practices like code decoupling so that I could have dynamic rebindings and functionalities between the players.";
-	this.mainScreenshot = 'images/projectShots/FloatingBoxesOfWonder/game2.png'
+	this.mainScreenshot = 'images/projectShots/Todo.png'
 	this.screenshots = ["images/projectShots/SpaceFishers/Menu.png",
 						'images/projectShots/FloatingBoxesOfWonder/game2.png', 
 						"images/projectShots/SpaceFishers/game1.png",
@@ -320,6 +320,14 @@ var Valintine = function(){
 	this.tags = ["Flash"];
 }
 
+var PokerTV = function(){
+	this.name = "PokerTV";
+	this.date = "October 2015";
+	this.smallDesc = "A chromecast/AppleTV app that allows you to play poker casually with your phone and TV.";
+	this.desc ="";
+	this.mainScreenshot = "images/projectShots/Todo.png";
+	this.tags = ["Mobile","Javascript","NodeJS","Gaming","Hackathon"];
+}
 
 
 
@@ -378,78 +386,132 @@ PROJECTS TODO:
 
 //CATEGORIES
 var Projects = [
-new SpaceDexterity(),
-new TestYourInnerGamer(),
-new SpaceFishers(),
-new CrazyCrystallizedCalamity(),
-new FloatingBoxesOfWonder(),
-new SpaceDexterity2(),
-new Simulator_237(),
-new Loaded(),
-new TakeOut(),
-new Arbitrio(),
-new MyRightToPlay(),
-new ZombieIO(),
-new GoogleHistoryScrapper(),
-new MrGameAndPebbleWatch(),
-new Stela(),
-new Uptalk(),
-new CobbleStone(),
-new LawyerUp(),
-new ArbCorvisa(),
-new Frizzle(),
-new Downlowd(),
-new DotDoccer(),
-new LetsGraduate(),
-new IntelliWheels(),
-new Cublet(),
-new ThisWebsite(),
-new Hickori(),
-new Yahtzee(),
-new ROYGBIV(),
-new Valintine()
+	new SpaceDexterity(),
+	new TestYourInnerGamer(),
+	new SpaceFishers(),
+	new CrazyCrystallizedCalamity(),
+	new FloatingBoxesOfWonder(),
+	new SpaceDexterity2(),
+	new Simulator_237(),
+	new Loaded(),
+	new TakeOut(),
+	new Arbitrio(),
+	new MyRightToPlay(),
+	new ZombieIO(),
+	new GoogleHistoryScrapper(),
+	new MrGameAndPebbleWatch(),
+	new Stela(),
+	new Uptalk(),
+	new CobbleStone(),
+	new LawyerUp(),
+	new ArbCorvisa(),
+	new Frizzle(),
+	new Downlowd(),
+	new DotDoccer(),
+	new LetsGraduate(),
+	new IntelliWheels(),
+	new Cublet(),
+	new ThisWebsite(),
+	new Hickori(),
+	new Yahtzee(),
+	new ROYGBIV(),
+	new Valintine(),
+	new PokerTV()
 ];
 
 
 var Featured = [
-new SpaceDexterity2(),
-new DotDoccer(),
-new Loaded(),
-new IntelliWheels(),
-new Cublet()
+	new SpaceDexterity2(),
+	new DotDoccer(),
+	new Loaded(),
+	new IntelliWheels(),
+	new Cublet(),
+	new PokerTV
 ]
 
 var Recent = [
-new ThisWebsite(),
-new DotDoccer(),
-new Hickori(),
-new Downlowd(),
-new IntelliWheels(),
-new Frizzle(),
-new Cublet(),
-new ArbCorvisa(),
-new LawyerUp()
+	new ThisWebsite(),
+	new PokerTV(),
+	new DotDoccer(),
+	new Hickori(),
+	new Downlowd(),
+	new IntelliWheels(),
+	new Frizzle(),
+	new Cublet(),
+	new ArbCorvisa()
 ]
 
 var WebDev = [
-new MyRightToPlay(),
-new ThisWebsite(),
-new IntelliWheels(),
-new LetsGraduate()
+	new MyRightToPlay(),
+	new ThisWebsite(),
+	new IntelliWheels(),
+	new LetsGraduate()
 ]
 
 var Gaming = [
-new SpaceDexterity2(),
-new Valintine(),
-new FloatingBoxesOfWonder(),
-new SpaceFishers(),
-new TestYourInnerGamer(),
-new SpaceDexterity(),
-new Loaded(),
-new ZombieIO(),
-new CobbleStone()
-
+	new PokerTV(),
+	new SpaceDexterity2(),
+	new Valintine(),
+	new FloatingBoxesOfWonder(),
+	new SpaceFishers(),
+	new TestYourInnerGamer(),
+	new SpaceDexterity(),
+	new Loaded(),
+	new CobbleStone()
 ];
+
+var WatchApp = [
+	new MrGameAndPebbleWatch(),
+	new Stela(),
+	new CobbleStone(),
+	new Downlowd()
+];
+
+var Mobile = [
+	new Loaded(),
+	new PokerTV(),
+	new TakeOut(),
+	new DotDoccer(),
+	new Uptalk(),
+	new Stela()
+];
+
+var Hackathon = [
+	new TakeOut(),
+	new Uptalk(),
+	new CobbleStone(),
+	new LawyerUp(),
+	new ArbCorvisa(),
+	new Frizzle(),
+	new Downlowd(),
+	new DotDoccer(),
+	new PokerTV()
+];
+
+var LargeScale = [
+	new MyRightToPlay(),
+	new Arbitrio(),
+	new IntelliWheels(),
+	new Loaded()
+];
+
+var BackEnd = [
+	new Arbitrio(),
+	new MyRightToPlay(),
+	new ZombieIO(),
+	new CobbleStone(),
+	new Downlowd(),
+	new LetsGraduate(),
+	new IntelliWheels(),
+	new PokerTV()
+]
+
+var Experimental = [
+	new Simulator_237(),
+	new Hickori(),
+	new Cublet(),
+	new GoogleHistoryScrapper()
+]
 
 var projArrays = new Array();
 projArrays['All'] = Projects;
@@ -457,7 +519,12 @@ projArrays['Featured'] = Featured;
 projArrays['Recent'] = Recent;
 projArrays['WebDev'] = WebDev;
 projArrays['Gaming'] = Gaming;
-
+projArrays['WatchApp'] = WatchApp;
+projArrays['Mobile'] = Mobile;
+projArrays['Hackathon'] = Hackathon;
+projArrays['Large'] = LargeScale;
+projArrays['BackEnd'] = BackEnd;
+projArrays['Misc'] = Experimental;
 
 
 
@@ -501,7 +568,8 @@ function displayProjectsOf(str){
 	}
 	for(var i=projects.length; i<projectTables.length; i++){
 		removeTable(projectTables[i], infoDiv[i], projectTitles[i], projectBorder[i], projectText[i], projectTag[i], projectTags[i]);
-	}	
+	}
+	removeProject();	
 }
 
 function removeTable(table,info,projectTitle,projectBorder,projectText,projectTag,projectTags){
@@ -521,6 +589,34 @@ function removeTable(table,info,projectTitle,projectBorder,projectText,projectTa
 	var new_element = old_element.cloneNode(true);
 	old_element.parentNode.replaceChild(new_element, old_element);
 }
+
+
+var projectDiv = document.getElementById("projectDiv");
+var displayingProj = false;
+function loadProject(project){
+	projectDiv.style.opacity = "1";
+	displayingProj = true;
+	disableTables();
+}
+function removeProject(){
+	projectDiv.style.opacity = "0";
+}
+
+function disableTables(){
+	for(var i=0; i<projectTables.length; i++){
+		 infoDiv[i].style.cursor = "default";
+		 infoDiv[i].style.opacity = 0;
+		 projectTitles[i].style.opacity = "0";
+		 projectTitles[i].style.padding = "0px 5px";
+		 projectBorder[i].style.opacity = "0";
+		 projectText[i].style.opacity = "0";
+		 projectTag[i].style.opacity = "0";
+		 projectTags[i].style.opacity = "0";
+		 projectText[i].style.padding = "0px 25px";
+		 projectTag[i].style.margin = "0px 25px";
+		 projectTags[i].style.margin = "0px 25px";
+	}
+ }
 
 function loadTable(table,info,projectTitle,projectBorder,projectText,projectTag,projectTags,data){
 	if(info){
@@ -542,17 +638,23 @@ function loadTable(table,info,projectTitle,projectBorder,projectText,projectTag,
 	}
 	projectTags.innerHTML = tags;
 
+	info.addEventListener("click", function(m){
+		loadProject(data);
+	});
+
 	info.addEventListener('mouseover',function over(m){
-		 info.style.opacity = ".7";
-		 projectTitle.style.opacity = "1";
-		 projectTitle.style.padding = "0px 15px";
-		 projectBorder.style.opacity = "1";
-		 projectText.style.opacity = "1";
-		 projectTag.style.opacity = "1";
-		 projectTags.style.opacity = "1";
-		 projectText.style.padding = "0px 15px";
-		 projectTag.style.margin = "0px 15px";
-		 projectTags.style.margin = "0px 15px";
+		if(!displayingProj){
+			 info.style.opacity = ".7";
+			 projectTitle.style.opacity = "1";
+			 projectTitle.style.padding = "0px 15px";
+			 projectBorder.style.opacity = "1";
+			 projectText.style.opacity = "1";
+			 projectTag.style.opacity = "1";
+			 projectTags.style.opacity = "1";
+			 projectText.style.padding = "0px 15px";
+			 projectTag.style.margin = "0px 15px";
+			 projectTags.style.margin = "0px 15px";
+		 }
 	});
 	info.addEventListener('mouseout',function over(m){
 		 info.style.opacity = 0;

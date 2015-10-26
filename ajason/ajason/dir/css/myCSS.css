@@ -27,6 +27,7 @@ p.who{
     padding-bottom: 0px;
     padding-left: 0px;
     margin-top:-30px;
+    width: 75%;
 }
 
 .navbar-default {
@@ -218,6 +219,7 @@ ul > li .ability-score {
     height:92%;
     opacity:0;
     z-index: 900;
+    cursor:pointer;
 }
 
 .infoText{
@@ -293,9 +295,53 @@ ul > li .ability-score {
     pointer-events:none;
 }
 
+.project-div{
+    position: absolute;
+    background: white;
+    width:100%;
+    height:100%;
+    z-index: 9;
+    opacity: 0;
+    pointer-events:none;
+}
+.project-title{
+    float:left;
+    font-family: GothamBold;
+    font-size: 30px;
+    padding: 4px 0px;
+}
+.project-subtitle{
+    float:left;
+    font-family: GothamBold;
+    font-size: 15px;
+    padding: 2px 4px;
+
+}
+
+.project-description{
+    float:left;
+    font-family: GothamBook;
+    font-size: 12px;
+    padding: 2px 4px;
+}
+
+.videobar{
+    margin-top: 20px;
+    width:68%;
+    text-align: center;
+    height:400px;
+}
+
+
 div{
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+}
+td{
+    border:1px;
+}
+table{
+    border:1px;
 }

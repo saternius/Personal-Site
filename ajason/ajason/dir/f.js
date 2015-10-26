@@ -1,6 +1,6 @@
-/*
-alert("This site is currently being updated. Just a fair warning that glitches and grammar mistakes may be commonplace. Asside from that you're good to go. :)");
-*/
+
+alert("This site is currently being updated. It is not supported for mobile devices yet, and projects are yet to be uploaded.");
+
 console.log("confff");
 
 (function(){
@@ -19,6 +19,53 @@ console.log("confff");
   };
 
 })();
+var updating = false;
+var mainText = document.getElementById("mainText");
+function recursiveDelete(string){
+    setTimeout(function(){
+        mainText.innerHTML += string.substring(0,1);
+        //console.log(string);
+        if(string.length>0){
+            recursiveDelete(string.substring(1,string.length));
+        }else{
+            updating = false;
+        }
+    },2);
+}
+
+function updateMainText(text){
+    mainText.innerHTML = "";
+    recursiveDelete(text);
+}
+
+function coin_clicked(frame){
+    console.log(frame);
+    if(!updating){
+       updating = true;
+        if(frame <39){
+            console.log("zero");
+            updateMainText("Anil can't go a day without having a drop of the sweet succulant magical mixture that is coke zero.");
+        }else if(frame < 79){
+            console.log("state");
+            updateMainText("Anil is from the sunshine state. More specifically Miami. Not born, but raised.");
+        }else if(frame < 120){
+            console.log("animate");
+            updateMainText("My favorite game is Project M, a mod of Super Smash Bros Brawl, in which my favorite fighter is Ganondorf");
+        }else if(frame <159){
+            console.log("animate");
+            updateMainText("Prior to programming, I used to love to animate, and still do from time to time. However I now mostly dynamically generate animations via code opposed to tediously constructing them by hand.");
+        }else if(frame < 200){
+            console.log("Monopoly");
+            updateMainText("I really enjoy board games and most strategy based games. One of my favorites that I've constructed with a couple of friends is Monopoly Forced-Auction, which is essentially just regular monopoly but whenever a property is landed on its auctioned rather than being exclusive to the lander");
+        }else if(frame < 240){
+            console.log("spongebro");
+             updateMainText("My favorite childhood series is none other than Spongebob Squarepants.");
+        }else{
+            console.log("back to start");
+            updateMainText(" Who is this guy? Anil is a soon to be Computer Science and Statistics graduate from the University of Illinois. He's a highly enthusiastic programmer with expereince in various platforms and practices from web dev to mobile to AI to gaming. An avid hackethoner with 11 consecutive wins that is passionate about learning and working with others.");
+        }
+    }
+}
 
 /*
 function display(id){
