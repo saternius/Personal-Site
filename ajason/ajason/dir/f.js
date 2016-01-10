@@ -1,5 +1,5 @@
 
-alert("This site is currently being updated. It is not supported for mobile devices yet, and projects are yet to be uploaded.");
+//alert("This site is currently being updated. It is not supported for mobile devices yet, and projects are yet to be uploaded.");
 
 console.log("confff");
 
